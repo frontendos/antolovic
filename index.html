@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <title>GPP Spejs Edišn</title>
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+
+    </head>
+
+    <body>
+
+        <header id="mainHeader" role="banner">
+            <h1>
+                GPP Spejs Edišn
+                
+                <small>ko da si pao s Marsa</small>
+            </h1>
+        </header>
+
+
+        <section id="introText">
+
+            <p>
+                Znači ide se na Mars, nema baš puno mjesta ostalo je samo <strong id="availableCount">13</strong> pa ti je bolje da što prije rezerviraš.
+            </p>
+            
+            <div>
+                <label>
+                    <input type="checkbox" id="returnTrip" />
+                    Znači daj kartu i za nazad
+                </label>
+            </div>
+
+        </section>
+
+
+        <form id="bookingForm">
+
+            <div class="row">
+                <div class="w33">
+                    <input type="date" name="departDate" id="departDate" placeholder="Kad?" />
+                </div>
+                
+                <div class="w33">
+                    <input type="text" disabled name="returnDate" id="returnDate" placeholder="Kad?" />
+                </div>            
+                
+                <div class="w33">
+                    <button id="bookTrigger" type="submit">Ajde</button>
+                </div>
+            </div>
+            
+            <div id="formFeedback" style="display:none"></div>
+
+        </form>
+
+        <div class="text-center">
+            <p>
+                Kontaš mi ti koristimo <strong>GPP AI</strong> tako da šta god upišeš u formu će se parsirati u validan datetime. BAM.
+            </p>
+        </div>
+
+
+        <div class="text-center">
+            <aside id="datingBanner">
+
+                <img src="img/ivana.jpg" alt="Ivana lega" />
+
+                <h3>
+                    <blink>
+                        Ivana (25) ti je poslala poruku
+                    </blink>
+                </h3>
+
+                <marquee>
+                    Prestani trošit subote na hekatone, dopisuj se s ribama u blizini!
+                </marquee>
+                
+                <a href="http://chatroulette.com" target="_blank">
+                    Pogledaj šta kaže ->
+                </a>
+
+            </aside>
+        </div>
+
+
+        <footer>
+            <p>
+                Kontaš lega, na Marsu nema kopike ni Joze, aj ti bolje ostani tu. &copy; GPP Spejs Edišn
+            </p>
+        </footer>
+
+        <script src="js/vendor/jquery-3.1.1.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

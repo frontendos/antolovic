@@ -1,0 +1,135 @@
+/* Defines how the width and height of the element are calculated: whether they include the padding and borders or not. */
+
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+a, a:focus, a:active{
+	color: #D5B9D0;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 18px;
+}
+
+/*------------*/
+
+body{
+	color: #FFF;
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	font-family: "Roboto", "Arial", sans-serif;
+	text-align:center;
+}
+
+#introText{
+	width: 500px;
+	margin: 4rem auto;
+}
+
+#mainHeader h1{
+	font-size: 4rem;
+	font-family: "Allerta Stencil", "Arial", sans-serif;
+	font-weight: bold;
+	padding: 4rem 0;
+}
+
+#mainHeader h1 small{
+	font-size: 2rem;
+	font-family: "Roboto Slab", "Arial", serif;
+	font-weight: bold;
+	padding: 2rem 0;
+	display: block;
+}
+
+#bookingForm {
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+}
+
+#bookingForm input {
+	border: 1px solid #FFF;
+	padding: 1rem 2rem;
+	border-radius: 15px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#bookingForm input[disabled]{
+	background: rgba(255,255,255,.5);
+}
+
+#bookingForm button {
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 1rem 2rem;
+	border-radius: 15px;
+	background: none;
+	width: 100%;
+}
+
+
+#bookingForm button {
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 1rem 2rem;
+	border-radius: 15px;
+	background: none;
+}
+
+
+#bookingForm button:hover {
+	color: #251621;
+	border: 1px solid #FFF;
+	background: #FFF;
+}
+
+.row {
+	display: block;
+	overflow: hidden;
+}
+
+.clearfix {
+	overflow: hidden;
+}
+
+.w33 {
+	padding: 0 1rem;
+	width: 33%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#datingBanner{
+	background: #FFF;
+	width: 300px;
+	padding: 1rem;
+	color: #000;
+	text-align: center;
+}
+
+#datingBanner a, #datingBanner h3{
+	color: blue;
+}
+
+#datingBanner img{
+	margin: 1rem auto;
+	max-width: 100%;
+	border: 2px solid red;
+}
+
+marquee {
+	font-size: 2rem;
+}
+
+#formFeedback{
+	color: #FFF;
+	background: #113B1D;
+}
+
+.text-center {
+	text-align: center;
+}
+
